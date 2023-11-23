@@ -18,8 +18,8 @@ namespace ApiSync.Services
                     @"   <soapenv:Header/>" + "\n" +
                     @"   <soapenv:Body>" + "\n" +
                     @"      <ser:ColaboradoresDemitidos>" + "\n" +
-                    @"         <password>2easy@2022</password>" + "\n" +
-                    @"         <user>cliente_webservice</user>" + "\n" +
+                    @"         <password></password>" + "\n" +
+                    @"         <user></user>" + "\n" +
                     @"         <encryption>0</encryption>" + "\n" +
                     @"         <parameters>" + "\n" +
                     @"            <!--Optional:-->" + "\n" +
