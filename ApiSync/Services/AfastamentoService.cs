@@ -14,7 +14,7 @@ namespace ApiSync.Services
 
             List<PesquisaAfastamento> lista = new List<PesquisaAfastamento>();
 
-            var afastUrl = "https://web38.seniorcloud.com.br:30401/g5-senior-services/rubi_Synccom_senior_g5_rh_fp_integracoes";
+            var afastUrl = "https://web38.seniorcloud.com.br/g5-senior-services/rubi_Synccom_senior_g5_rh_fp_integracoes";
 
             var body = @"<soapenv:Envelope xmlns:soapenv=""http://schemas.xmlsoap.org/soap/envelope/"" xmlns:ser=""http://services.senior.com.br"">" + "\n" +
                                 @"  <soapenv:Body>" + "\n" +
