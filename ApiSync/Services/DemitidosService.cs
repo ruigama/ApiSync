@@ -11,8 +11,8 @@ namespace ApiSync.Services
             List<Funcionario> lista = new List<Funcionario>();
             try
             {
-                string _webServiceUrl = "https://web38.seniorcloud.com.br:30401/g5-senior-services/rubi_Synccom_senior_g5_rh_fp_colaboradoresDemitidos";
-                //string consultaPis = "https://web38.seniorcloud.com.br:30401/g5-senior-services/rubi_Synccom_senior_g5_rh_fp_integracoes";
+                string _webServiceUrl = "https://web38.seniorcloud.com.br/g5-senior-services/rubi_Synccom_senior_g5_rh_fp_colaboradoresDemitidos";
+                //string consultaPis = "https://web38.seniorcloud.com.br/g5-senior-services/rubi_Synccom_senior_g5_rh_fp_integracoes";
 
                 var soap = @"<soapenv:Envelope xmlns:soapenv=""http://schemas.xmlsoap.org/soap/envelope/"" xmlns:ser=""http://services.senior.com.br"">" + "\n" +
                     @"   <soapenv:Header/>" + "\n" +
