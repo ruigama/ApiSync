@@ -30,8 +30,8 @@ namespace ApiSync.Services
                         var body = @"<soapenv:Envelope xmlns:soapenv=""http://schemas.xmlsoap.org/soap/envelope/"" xmlns:ser=""http://services.senior.com.br"">" + "\n" +
                                             @"  <soapenv:Body>" + "\n" +
                                             @"    <ser:ConsultarTabelas>" + "\n" +
-                                            @"      <user>cliente_webservice</user>" + "\n" +
-                                            @"      <password>2easy@2022</password>" + "\n" +
+                                            @"      <user></user>" + "\n" +
+                                            @"      <password></password>" + "\n" +
                                             @"      <encryption>0</encryption>" + "\n" +
                                             @"      <parameters>" + "\n" +
                                             @"        <consulta>" + "\n" +
@@ -85,8 +85,8 @@ namespace ApiSync.Services
                         var bodyPD = @"<soapenv:Envelope xmlns:soapenv=""http://schemas.xmlsoap.org/soap/envelope/"" xmlns:ser=""http://services.senior.com.br"">" + "\n" +
                                                     @"  <soapenv:Body>" + "\n" +
                                                     @"    <ser:ConsultarTabelas>" + "\n" +
-                                                    @"      <user>cliente_webservice</user>" + "\n" +
-                                                    @"      <password>2easy@2022</password>" + "\n" +
+                                                    @"      <user></user>" + "\n" +
+                                                    @"      <password></password>" + "\n" +
                                                     @"      <encryption>0</encryption>" + "\n" +
                                                     @"      <parameters>" + "\n" +
                                                     @"        <consulta>" + "\n" +
@@ -147,8 +147,8 @@ namespace ApiSync.Services
                             var corpo = @"<soapenv:Envelope xmlns:soapenv=""http://schemas.xmlsoap.org/soap/envelope/"" xmlns:ser=""http://services.senior.com.br"">" + "\n" +
                                                     @"  <soapenv:Body>" + "\n" +
                                                     @"    <ser:ConsultarTabelas>" + "\n" +
-                                                    @"      <user>cliente_webservice</user>" + "\n" +
-                                                    @"      <password>2easy@2022</password>" + "\n" +
+                                                    @"      <user></user>" + "\n" +
+                                                    @"      <password></password>" + "\n" +
                                                     @"      <encryption>0</encryption>" + "\n" +
                                                     @"      <parameters>" + "\n" +
                                                     @"        <consulta>" + "\n" +
@@ -206,8 +206,8 @@ namespace ApiSync.Services
                                     var corpo2 = @"<soapenv:Envelope xmlns:soapenv=""http://schemas.xmlsoap.org/soap/envelope/"" xmlns:ser=""http://services.senior.com.br"">" + "\n" +
                                                         @"  <soapenv:Body>" + "\n" +
                                                         @"    <ser:ConsultarTabelas>" + "\n" +
-                                                        @"      <user>cliente_webservice</user>" + "\n" +
-                                                        @"      <password>2easy@2022</password>" + "\n" +
+                                                        @"      <user></user>" + "\n" +
+                                                        @"      <password></password>" + "\n" +
                                                         @"      <encryption>0</encryption>" + "\n" +
                                                         @"      <parameters>" + "\n" +
                                                         @"        <consulta>" + "\n" +
@@ -354,8 +354,8 @@ namespace ApiSync.Services
                                 var corpo = @"<soapenv:Envelope xmlns:soapenv=""http://schemas.xmlsoap.org/soap/envelope/"" xmlns:ser=""http://services.senior.com.br"">" + "\n" +
                                                         @"  <soapenv:Body>" + "\n" +
                                                         @"    <ser:ConsultarTabelas>" + "\n" +
-                                                        @"      <user>cliente_webservice</user>" + "\n" +
-                                                        @"      <password>2easy@2022</password>" + "\n" +
+                                                        @"      <user></user>" + "\n" +
+                                                        @"      <password></password>" + "\n" +
                                                         @"      <encryption>0</encryption>" + "\n" +
                                                         @"      <parameters>" + "\n" +
                                                         @"        <consulta>" + "\n" +
@@ -419,8 +419,8 @@ namespace ApiSync.Services
                                     var corpo2 = @"<soapenv:Envelope xmlns:soapenv=""http://schemas.xmlsoap.org/soap/envelope/"" xmlns:ser=""http://services.senior.com.br"">" + "\n" +
                                                         @"  <soapenv:Body>" + "\n" +
                                                         @"    <ser:ConsultarTabelas>" + "\n" +
-                                                        @"      <user>cliente_webservice</user>" + "\n" +
-                                                        @"      <password>2easy@2022</password>" + "\n" +
+                                                        @"      <user></user>" + "\n" +
+                                                        @"      <password></password>" + "\n" +
                                                         @"      <encryption>0</encryption>" + "\n" +
                                                         @"      <parameters>" + "\n" +
                                                         @"        <consulta>" + "\n" +
