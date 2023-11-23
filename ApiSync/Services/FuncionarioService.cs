@@ -15,12 +15,12 @@ namespace ApiSync.Services
             {
                 string dataPesquisa = DateTime.Now.AddDays(-50).ToString("dd/MM/yyyy");
 
-                string pesquisa = "https://web38.seniorcloud.com.br:30401/g5-senior-services/rubi_Synccom_senior_g5_rh_fp_integracoes";
+                string pesquisa = "https://web38.seniorcloud.com.br/g5-senior-services/rubi_Synccom_senior_g5_rh_fp_integracoes";
                 var body = @"<soapenv:Envelope xmlns:soapenv=""http://schemas.xmlsoap.org/soap/envelope/"" xmlns:ser=""http://services.senior.com.br"">" + "\n" +
                                     @"  <soapenv:Body>" + "\n" +
                                     @"    <ser:ConsultarTabelas>" + "\n" +
-                                    @"      <user>cliente_webservice</user>" + "\n" +
-                                    @"      <password>2easy@2022</password>" + "\n" +
+                                    @"      <user></user>" + "\n" +
+                                    @"      <password></password>" + "\n" +
                                     @"      <encryption>0</encryption>" + "\n" +
                                     @"      <parameters>" + "\n" +
                                     @"        <consulta>" + "\n" +
@@ -93,8 +93,8 @@ namespace ApiSync.Services
                 var body = @"<soapenv:Envelope xmlns:soapenv=""http://schemas.xmlsoap.org/soap/envelope/"" xmlns:ser=""http://services.senior.com.br"">" + "\n" +
                                     @"  <soapenv:Body>" + "\n" +
                                     @"    <ser:ConsultarTabelas>" + "\n" +
-                                    @"      <user>cliente_webservice</user>" + "\n" +
-                                    @"      <password>2easy@2022</password>" + "\n" +
+                                    @"      <user></user>" + "\n" +
+                                    @"      <password></password>" + "\n" +
                                     @"      <encryption>0</encryption>" + "\n" +
                                     @"      <parameters>" + "\n" +
                                     @"        <consulta>" + "\n" +
